@@ -1,0 +1,89 @@
+/*Estilos da página index.html*/
+
+.center{
+    text-align: center;
+    font-size: 20px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color:  #F2BA52;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color:#8C2703;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: rgba(242, 68, 5, 1);
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh-300{
+    width: 300px;
+    height: 300px;
+}
+
+.tm-social{
+    widows: 40px;
+    height: 40px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+/*Estilos da página contato.html*/
+
+.ml-50{
+    margin-left: 50px;
+}
+
+/* Color Theme Swatches in Hex */
+.outono-2-1-hex { color: #F2BA52; }
+.outono-2-2-hex { color: #F24405; }
+.outono-2-3-hex { color: #8C2703; }
+.outono-2-4-hex { color: #BF0404; }
+.outono-2-5-hex { color: #400202; }
+
+/* Color Theme Swatches in RGBA */
+.outono-2-1-rgba { color: rgba(242, 186, 82, 1); }
+.outono-2-2-rgba { color: rgba(242, 68, 5, 1); }
+.outono-2-3-rgba { color: rgba(140, 39, 3, 1); }
+.outono-2-4-rgba { color: rgba(191, 4, 4, 1); }
+.outono-2-5-rgba { color: rgba(64, 2, 2, 1); }
+
+/* Color Theme Swatches in HSLA */
+.outono-2-1-hsla { color: hsla(38, 86, 63, 1); }
+.outono-2-2-hsla { color: hsla(15, 95, 48, 1); }
+.outono-2-3-hsla { color: hsla(15, 95, 28, 1); }
+.outono-2-4-hsla { color: hsla(0, 95, 38, 1); }
+.outono-2-5-hsla { color: hsla(0, 93, 12, 1); }
+
+/* Gradient in Hex */
+linear-gradient(to right, #D98B70 0%, 31.318682432174683%, #DD4D17 62.637364864349365%, 81.31868243217468%, #FD6D0A 100%);
+
+/* Gradient in RGBA */
+linear-gradient(to right, rgba(217, 139, 112, 1) 0%, 31.318682432174683%, rgba(221, 77, 23, 1) 62.637364864349365%, 81.31868243217468%, rgba(253, 109, 10, 1) 100%);
